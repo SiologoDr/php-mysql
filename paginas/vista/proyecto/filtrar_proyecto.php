@@ -2,7 +2,7 @@
 session_start(); 
 
 if (!isset($_SESSION['usuario'])) {
-    header('Location: http://localhost/Panel_Jardhystex/login.php');
+    header('Location: http://ds502-jhardsystex.azurewebsites.net/login.php');
     exit(); 
 }
 ?>

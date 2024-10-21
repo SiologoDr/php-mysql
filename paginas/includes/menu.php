@@ -33,7 +33,7 @@
         </li>
     </ul>
     <hr/>
-    <a class="nav-link d-flex align-items-center text-danger" href="http://localhost/Panel_Jardhystex/logout.php">
+    <a class="nav-link d-flex align-items-center text-danger" href="http://ds502-jhardsystex.azurewebsites.net/logout.php">
         <i class="fas fa-sign-out-alt me-2"></i> Cerrar Sesión
     </a>
 </aside>
