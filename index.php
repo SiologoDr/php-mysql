@@ -19,11 +19,10 @@ if (isset($_SESSION['usuario'])){
         exit();
     } else {
         $errorLogin = "Usuario o Contraseña incorrectos";
-        header("location: ./login.php");
+        header('Location: http://ds502-jhardsystex.azurewebsites.net/login.php');
     }
 } else {
-    echo "login";
-    header("location: ./login.php");
+    header('Location: http://ds502-jhardsystex.azurewebsites.net/login.php');
 }
 ?>
 
