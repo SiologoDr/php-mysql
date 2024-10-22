@@ -88,11 +88,6 @@ if (!isset($_SESSION['usuario'])) {
                                 </div>
 
                                 <div class="col-md-4">
-                                    <label for="cbo_es_proy" class="form-label">Estado</label>
-                                    <input type="text" class="form-control" id="cbo_es_proy" name="cbo_es_proy" placeholder="Fecha inicio"  step="0.01" value="<?=$rs_proy->estado_proyecto?>"/>
-                                </div>
-
-                                <div class="col-md-4">
                                     <label for="txt_precio" class="form-label">Precio</label>
                                     <input type="number" class="form-control" id="txt_precio" name="txt_precio" placeholder="Fecha inicio" step="0.01" value="<?=$rs_proy->precio?>"/>
                                 </div>
