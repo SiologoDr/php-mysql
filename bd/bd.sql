@@ -1,10 +1,10 @@
 /* --------------------- CREACION DE LA BASE DE DATOS --------------------- */
 
 -- Creacion de la Base de Datos "bd_jhardsystex"
-create database bd_jhardsystex2;
+create database bd_jhardsystex;
 
 -- Usar la Base de Datos "bd_jhardsystex"
-use bd_jhardsystex2;
+use bd_jhardsystex;
 
 
 /* ------------------- CREACION DE 3 TABLAS FUERTES (PK) ------------------- */
@@ -518,7 +518,7 @@ begin
             tipo_documento = tipo_doc,
             nro_documento = nro_doc,
             telefono = tlf,
-            email = email,
+            email = email_emp,
             direccion = dir,
             sueldo = sld,
             estado_sueldo = est_su,
