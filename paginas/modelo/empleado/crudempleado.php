@@ -154,7 +154,7 @@ class CRUDEmpleado extends Conexion {
         try {
             $cn = $this->Conectar();
 
-            $sql = "CALL sp_registrar_empleado(:cod_emp, :nombre_emp, :apellido_pat, :apellido_mat, :tipo_doc, :nro_doc, :tel, :email, :dir, :sueldo, :estado_sueldo, :f_contr, :puesto, :cod_area);";
+            $sql = "CALL sp_registrar_empleado(:cod_emp, :nombre_emp, :apellido_mat, :apellido_pat, :tipo_doc, :nro_doc, :tel, :email, :dir, :sueldo, :estado_sueldo, :f_contr, :puesto, :cod_area);";
 
             $snt = $cn->prepare($sql);
             $snt->bindParam(':cod_emp', $empleado->codigo_empleado);
