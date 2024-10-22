@@ -112,7 +112,7 @@ include "../../includes/cabecera.php"
                                                     <select class="form-select form-select-lg mb-3" id="cbo_es_proy"
                                                         name="cbo_es_proy">
                                                         <option value="" selected>[Seleccione Estado]</option>
-                                                        <option value="En curso">EN CURSO</option>
+                                                        <option value= "En curso">EN CURSO</option>
                                                         <option value="Pausado">PAUSADO</option>
                                                         <option value="Cancelado">CANCELADO</option>
                                                         <option value="Pendiente">PENDIENTE</option>
