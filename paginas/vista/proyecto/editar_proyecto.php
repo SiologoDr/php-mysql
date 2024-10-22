@@ -98,11 +98,11 @@ if (!isset($_SESSION['usuario'])) {
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label for="cbo_es_proy" class="form-label">Estado Cliente</label>
+                                    <label for="cbo_es_proy" class="form-label">Estado Proyecto</label>
                                     <select class="form-select form-select-lg mb-3" id="cbo_es_proy" name="cbo_es_proy">
                                     <option value="" selected>[Seleccione Estado]</option>
                                     <?php
-                                    $proyTypes = ['EN CURSO','PAUSADO','CANCELADO','PENDIENTE','FINALIZADO'];
+                                    $proyTypes = ['En curso','Pausado','Cancelado','Pendiente','Finalizado'];
                                     foreach ($proyTypes as $type) {
                                         $selected = ($type == $rs_proy->estado_proyecto) ? 'selected' : '';
                                         echo "<option value = '{$type}' $selected>{$type}</option>";
