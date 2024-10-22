@@ -25,7 +25,6 @@ function enviarCorreoAsignacion($emailEmpleado, $nombreEmpleado,$apellido, $codi
 
         // Enviar el correo
         $mail->send();
-        echo 'Correo enviado correctamente';
     } catch (Exception $e) {
         echo "No se pudo enviar el correo. Error: {$mail->ErrorInfo}";
     }
