@@ -10,7 +10,7 @@ if (!isset($_SESSION['usuario'])) {
 <html lang="es">
     <?php
     $ruta = "../../..";
-    $titulo = "Aplicación de ventas - Consultar Área";
+    $titulo = "Aplicación de ventas - Consultar Asignación";
     include ("../../includes/cabecera.php");
     ?>
     <body>
@@ -21,7 +21,7 @@ if (!isset($_SESSION['usuario'])) {
         <div class="flex-grow-1 p-4">
         <div class="container mt-3">
             <header>
-                <h1><i class="fas fa-search"></i> Consultar Área</h1>
+                <h1><i class="fas fa-search"></i> Consultar Asignación</h1>
                 <hr/>
             </header>
             <nav>
@@ -58,7 +58,7 @@ if (!isset($_SESSION['usuario'])) {
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title">Detalles del Área</h5>
+                            <h5 class="modal-title">Detalles del Asignación</h5>
                         </div>
                         <div class="modal-body">
                             <p>Código de asignación: <span class="modal-codasi"></span></p>
