@@ -53,7 +53,7 @@ include "../../includes/cabecera.php";
                     <div class="card">
                         <div class="card-body">
                             <form id="frm_editar_client" name="frm_editar_client" method="post"
-                                action="../../controlador/cliente/ctr_grabar_cli.php" autocomplete="off">
+                                action= "../../controlador/cliente/ctr_grabar_cli.php" autocomplete="off">
                                 <input type="hidden" id="txt_tipo" name="txt_tipo" value="e" />
                                         <div class="row g-3">
                                             <div class="col-md-4">
